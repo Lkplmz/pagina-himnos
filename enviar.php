@@ -17,9 +17,9 @@ if ($_SERVER["REQUEST METHOD"] == "POST") {
         echo "Mensaje enviado con exito.";
     } else {
         echo "Error al enviar mensaje.";
-        }
-    } else {
-        echo "Metodo no permitido.";
-    }
+        } 
+} else {
+    echo "Metodo no permitido.";
+}
 
 ?>
